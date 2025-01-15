@@ -14,21 +14,6 @@ Implements security headers to mitigate common vulnerabilities like XSS and clic
 5. Ease of Monitoring
 Configured logs can be tailed for real-time monitoring.
 
-**Project Structure**
-bash
-Copy code
-Load_balancer/
-├── nginx.conf                  # Main Nginx configuration file
-├── load_balancer.conf          # Load balancer configuration for Nginx
-├── Servers/                    # Python backend servers
-│   ├── Server1/
-│   │   ├── server1.py
-│   ├── Server2/
-│   │   ├── server2.py
-│   └── Server3/
-│       ├── server3.py
-└── README.md                   # Project documentation
-
 **Installation and Setup**
 
 Prerequisites:
